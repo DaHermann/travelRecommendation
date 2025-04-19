@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-image:  linear-gradient(rgba(41, 147, 235, 0.5)),url('https://pixabay.com/get/gc5d29ff2268795310d1b65afca524fdec8e3f1a29de248ae1bae668037058209c25a483a760aea3cf9544a6e3d8efe36625c864a56bdf12ff5a2c3ac5a7e3cf8_1280.jpg');
+    background-size: cover;
+    color: #333;
+}
+
+/*************** Navigation style ********************/
+
+.header{
+    background-color:  rgba(7, 0, 27);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: fixed;
+    top: 0; 
+    /* height: 80px; */
+    width: 100%;
+    z-index: 1000;
+}
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav #logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;   
+}
+
+.header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.header nav ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.header nav .search-bar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.header nav .search-bar input[type="text"]{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+.header nav .search-bar .la-search{
+    z-index: 2;
+    display: inline-block;
+    color: #252020;
+    margin-left: -30px;
+}
+
+.header nav .search-bar button{
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*************** Body style ********************/
+
+.body{
+    margin-top: 80px;
+    padding: 30px;
+    display: flex;
+}
+.body .social_Icon{
+    width: 5%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.body .social_Icon a i{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    transition: background-color 0.3s ease;
+}
+
+.body .content{
+    width: 95%;
+    padding: 20px;
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 2px 5px rgba(0,0,0,0.1); */
+}
+.body .content h1{
+    font-size: 60px;
+    width: 100px;
+    margin-bottom: 20px;
+    color: #fff ;
+}
+.body .content p{
+    width: 40%;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    margin-top: 60px;
+    color: #fff ;
+}
