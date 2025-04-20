@@ -6,7 +6,8 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image:  linear-gradient(rgba(41, 147, 235, 0.5)),url('https://pixabay.com/get/gc5d29ff2268795310d1b65afca524fdec8e3f1a29de248ae1bae668037058209c25a483a760aea3cf9544a6e3d8efe36625c864a56bdf12ff5a2c3ac5a7e3cf8_1280.jpg');
+    /* background-image:  linear-gradient(rgba(41, 148, 235, 0.74),rgba(41, 235, 67, 0.74)),url('https://pixabay.com/get/gc5d29ff2268795310d1b65afca524fdec8e3f1a29de248ae1bae668037058209c25a483a760aea3cf9544a6e3d8efe36625c864a56bdf12ff5a2c3ac5a7e3cf8_1280.jpg'); */
+    background-image:  linear-gradient(to right,rgba(8, 28, 94, 0.815) , rgba(8, 28, 94, 0.01)),url('/img/bg-horseshoe-bend.jpg');
     background-size: cover;
     color: #333;
 }
@@ -166,14 +167,17 @@ body{
     margin-bottom: 20px;
     color: #fff ;
 }
-.body .content-about p{
+.body .content-about h1 + p{
     width: 80%;
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 20px;
-    margin-top: 60px;
+    /* margin-bottom: 20px; */
+    margin: 60px auto;
     color: #fff ;
     text-align: justify;
+    background-color: #2d302f98;
+    padding: 20px 25px;
+    align-self: center;
 }
 .body .content-about .teams{
     display: flex;
@@ -194,7 +198,7 @@ body{
     width: 30%;
     padding: 20px;
     color: #fff;
-    background-color: rgba(27, 27, 27, 0.226);
+    background-color: rgba(27, 27, 27, 0.575);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,7 +209,7 @@ body{
 .body .content-about .teams .member .member_text{
     text-align: center;
     margin: 10px;
-    color: #2d302f;
+    color: #888f8d;
 }
 
 .body .content-about .teams .member .member_title{
@@ -263,7 +267,7 @@ body{
     width: 50%;
     /* margin: 20px; */
     color: #fff ;
-    background: rgba(27, 27, 27, 0.226);
+    background: rgba(27, 27, 27, 0.5);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -280,10 +284,12 @@ body{
 .body .content-contact form  input , textarea{
     padding: 10px;
     border-radius: 5px;
-    border: none;
-    background-color: #fff;
-    color: #333;
+    background-color: transparent;
+    color: #ffffff;
     width: 100%;
+    border: #888f8d solid 1px;
+    transition: border-color 0.3s ease;
+    font-size: 16px;
 }
 .body .content-contact form  input , textarea:focus{
     outline: none;
@@ -304,5 +310,6 @@ body{
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    width: 30%;
+    /* width: 30%; */
+    width: 100%;
 }
