@@ -9,6 +9,8 @@ body{
     /* background-image:  linear-gradient(rgba(41, 148, 235, 0.74),rgba(41, 235, 67, 0.74)),url('https://pixabay.com/get/gc5d29ff2268795310d1b65afca524fdec8e3f1a29de248ae1bae668037058209c25a483a760aea3cf9544a6e3d8efe36625c864a56bdf12ff5a2c3ac5a7e3cf8_1280.jpg'); */
     background-image:  linear-gradient(to right,rgba(8, 28, 94, 0.815) , rgba(8, 28, 94, 0.01)),url('/img/bg-horseshoe-bend.jpg');
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #333;
 }
 
@@ -32,16 +34,16 @@ body{
 }
 
 .header nav #logo {
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bold;
-    color: #fff;   
+    color: #fff;  
 }
 
 .header nav #logo span i{
-    font-size: 48px;
+    font-size: 40px;
     position: relative;
-    bottom: -17px;
-    left: -16px;
+    bottom: -10px;
+    left: -10px;
     z-index: 2;
 }
 
@@ -319,7 +321,7 @@ body{
 
 
 .result-div{
-    width: 50%;
+    width: 70%;
     position:relative;
     right: -5px;
     top: -30px;
@@ -331,12 +333,39 @@ body{
     padding: 20px;
     z-index: 5;
 }
-
-.result-item .result-item-details{
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.8);
+.result-div span{
+    font-size: 30px;
+    height: 20px;
+    width: 100%;    
+    border-radius: 10px;
+    background: #021450;
+    margin-bottom: -15px;
+    margin-top: 15px;
 }
 
+.result-div .result-item{
+    background-color: rgba(255, 255, 255,1);
+    border-radius: 5px;
+}
+.result-div .result-item .result-item-details{
+    padding: 10px;
+}
+
+.result-div .result-item .result-item-details h3{
+    margin-bottom: 10px;
+}
+
+.result-div .result-item .result-item-details button{
+    margin-top: 10px;
+    padding: 5px;
+    width: 20%;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #021450;
+}
+ 
 .result-div img{
     width: 100%;
     height: 100%;
