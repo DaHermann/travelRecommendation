@@ -140,8 +140,8 @@ body{
     color: #fff ;
 }
 .body .content p{
-    width: 100%;
-    font-size: 18px;
+    width: 40%;
+    font-size: 15px;
     line-height: 1.6;
     margin-bottom: 20px;
     margin-top: 60px;
@@ -312,4 +312,33 @@ body{
     transition: background-color 0.3s ease;
     /* width: 30%; */
     width: 100%;
+}
+
+
+/* Search result Style */
+
+
+.result-div{
+    width: 50%;
+    position:relative;
+    right: -5px;
+    top: -30px;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    z-index: 5;
+}
+
+.result-item .result-item-details{
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.result-div img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
