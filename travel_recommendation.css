@@ -7,7 +7,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     /* background-image:  linear-gradient(rgba(41, 148, 235, 0.74),rgba(41, 235, 67, 0.74)),url('https://pixabay.com/get/gc5d29ff2268795310d1b65afca524fdec8e3f1a29de248ae1bae668037058209c25a483a760aea3cf9544a6e3d8efe36625c864a56bdf12ff5a2c3ac5a7e3cf8_1280.jpg'); */
-    background-image:  linear-gradient(to right,rgba(8, 28, 94, 0.815) , rgba(8, 28, 94, 0.01)),url('img/bg-horseshoe-bend.jpg');
+    background-image:  linear-gradient(to right,rgba(8, 28, 94, 0.705) , rgba(8, 28, 94, 0.01)),url('img/bg-horseshoe-bend.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -172,15 +172,16 @@ body{
 }
 .body .content-about h1 + p{
     width: 80%;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.6;
     /* margin-bottom: 20px; */
     margin: 60px auto;
     color: #fff ;
     text-align: justify;
-    background-color: #2d302f98;
+    background-color: #2d302f71;
     padding: 20px 25px;
     align-self: center;
+    border-radius: 10px;
 }
 .body .content-about .teams{
     display: flex;
@@ -191,7 +192,7 @@ body{
 }
 
 .body .content-about .teams>h2{
-    font-size: 50px;
+    font-size: 40px;
     width: 10%;
     margin-bottom: 20px;
     color: #fff ;
@@ -201,18 +202,20 @@ body{
     width: 30%;
     padding: 20px;
     color: #fff;
-    background-color: rgba(27, 27, 27, 0.575);
+    background-color: rgba(27, 27, 27, 0.377);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; 
     box-sizing: border-box;
+    border-radius: 10px;
 }
 
 .body .content-about .teams .member .member_text{
     text-align: center;
     margin: 10px;
     color: #888f8d;
+    font-size: 16px;
 }
 
 .body .content-about .teams .member .member_title{
