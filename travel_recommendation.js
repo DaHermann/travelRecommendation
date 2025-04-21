@@ -17,7 +17,7 @@ function init() {
         // const destination = "beaches".toLocaleLowerCase().trim();
 
         try {
-            const response = await fetch('/travel_recommendation_api.json'); // response from the JSON file
+            const response = await fetch('travel_recommendation_api.json'); // response from the JSON file
             if (!response.ok) {
                 throw new Error('Network response was not ok' + response.statusText);
             }
