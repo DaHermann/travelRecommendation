@@ -7,7 +7,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     /* background-image:  linear-gradient(rgba(41, 148, 235, 0.74),rgba(41, 235, 67, 0.74)),url('https://pixabay.com/get/gc5d29ff2268795310d1b65afca524fdec8e3f1a29de248ae1bae668037058209c25a483a760aea3cf9544a6e3d8efe36625c864a56bdf12ff5a2c3ac5a7e3cf8_1280.jpg'); */
-    background-image:  linear-gradient(to right,rgba(8, 28, 94, 0.815) , rgba(8, 28, 94, 0.01)),url('/img/bg-horseshoe-bend.jpg');
+    background-image:  linear-gradient(to right,rgba(8, 28, 94, 0.815) , rgba(8, 28, 94, 0.01)),url('img/bg-horseshoe-bend.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
